@@ -3,19 +3,13 @@ $(function () {
     var w = $("#wrapper");
     var l = $("#list");
 
-    //w.height(l.outerHeight(true));
+    var capital = $("#capital");
+    var sq_meters = $("#sq_Meters");
+    var result = $("#result");
 
     b.click(function () {
+        result.text(capital.val() * sq_meters.val());
 
-        if (w.hasClass('open')) {
-            w.removeClass('open');
-            w.height(0);
-            //alert("test");
-        } else {
-            w.addClass('open');
-            w.height(l.outerHeight(true));
-            //alert("test2");
-        }
-
+        w.height(l.outerHeight(true) + result.outerHeight(true));
     });
 });
