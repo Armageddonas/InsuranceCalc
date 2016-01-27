@@ -1,6 +1,3 @@
-
-Link to demo: http://83.212.112.204/insurancecalc/
-
 InsuranceCalc
 ========
 
@@ -15,6 +12,12 @@ Features
 
 - Simple calculation
 - Display result with simple elegant effects
+
+Demo page
+---------
+
+Link to demo: http://83.212.112.204/insurancecalc/
+
 
 Contribute
 ----------
